@@ -187,7 +187,7 @@ class PlacePickerActivity : AppCompatActivity(), OnMapReadyCallback {
     showLatLong = intent.getBooleanExtra(Constants.SHOW_LAT_LONG_INTENT, false)
     addressRequired = intent.getBooleanExtra(Constants.ADDRESS_REQUIRED_INTENT, true)
     hideMarkerShadow = intent.getBooleanExtra(Constants.HIDE_MARKER_SHADOW_INTENT, false)
-    zoom = intent.getFloatExtra(Constants.INITIAL_ZOOM_INTENT, Constants.DEFAULT_ZOOM)
+    /*zoom = intent.getFloatExtra(Constants.INITIAL_ZOOM_INTENT, Constants.DEFAULT_ZOOM)
     markerDrawableRes = intent.getIntExtra(Constants.MARKER_DRAWABLE_RES_INTENT, -1)
     markerColorRes = intent.getIntExtra(Constants.MARKER_COLOR_RES_INTENT, -1)
     fabColorRes = intent.getIntExtra(Constants.FAB_COLOR_RES_INTENT, -1)
@@ -200,7 +200,7 @@ class PlacePickerActivity : AppCompatActivity(), OnMapReadyCallback {
     googleApiKey = intent.getStringExtra(Constants.GOOGLE_API_KEY)
     searchBarEnable = intent.getBooleanExtra(Constants.SEARCH_BAR_ENABLE, false)
     hideLocationButton = intent.getBooleanExtra(Constants.HIDE_LOCATION_BUTTON, false)
-    disableMarkerAnimation = intent.getBooleanExtra(Constants.DISABLE_MARKER_ANIMATION, false)
+    disableMarkerAnimation = intent.getBooleanExtra(Constants.DISABLE_MARKER_ANIMATION, false)*/
   }
 
   private fun setIntentCustomization() {

@@ -15,7 +15,7 @@ class PlacePicker {
     private var latitude: Double = Constants.DEFAULT_LATITUDE
     private var longitude: Double = Constants.DEFAULT_LONGITUDE
     private var zoom: Float = Constants.DEFAULT_ZOOM
-    private var addressRequired: Boolean = true
+    private var addressRequired: Boolean = false
     private var hideMarkerShadow: Boolean = false
     private var markerDrawableRes: Int = -1
     private var markerImageColorRes: Int = -1
@@ -87,7 +87,7 @@ class PlacePicker {
       intent.putExtra(Constants.INITIAL_LATITUDE_INTENT, latitude)
       intent.putExtra(Constants.INITIAL_LONGITUDE_INTENT, longitude)
       intent.putExtra(Constants.INITIAL_ZOOM_INTENT, zoom)
-      intent.putExtra(Constants.HIDE_MARKER_SHADOW_INTENT, hideMarkerShadow)
+      /*intent.putExtra(Constants.HIDE_MARKER_SHADOW_INTENT, hideMarkerShadow)
       intent.putExtra(Constants.MARKER_DRAWABLE_RES_INTENT, markerDrawableRes)
       intent.putExtra(Constants.MARKER_COLOR_RES_INTENT, markerImageColorRes)
       intent.putExtra(Constants.FAB_COLOR_RES_INTENT, fabBackgroundColorRes)
@@ -100,7 +100,7 @@ class PlacePicker {
       intent.putExtra(Constants.GOOGLE_API_KEY, googleApiKey)
       intent.putExtra(Constants.SEARCH_BAR_ENABLE, searchBarEnable)
       intent.putExtra(Constants.HIDE_LOCATION_BUTTON, hideLocation)
-      intent.putExtra(Constants.DISABLE_MARKER_ANIMATION, disableMarkerAnimation)
+      intent.putExtra(Constants.DISABLE_MARKER_ANIMATION, disableMarkerAnimation)*/
       return intent
     }
   }
