@@ -87,7 +87,7 @@ class PlacePicker {
       intent.putExtra(Constants.INITIAL_LATITUDE_INTENT, latitude)
       intent.putExtra(Constants.INITIAL_LONGITUDE_INTENT, longitude)
       intent.putExtra(Constants.INITIAL_ZOOM_INTENT, zoom)
-      /*intent.putExtra(Constants.HIDE_MARKER_SHADOW_INTENT, hideMarkerShadow)
+      intent.putExtra(Constants.HIDE_MARKER_SHADOW_INTENT, hideMarkerShadow)
       intent.putExtra(Constants.MARKER_DRAWABLE_RES_INTENT, markerDrawableRes)
       intent.putExtra(Constants.MARKER_COLOR_RES_INTENT, markerImageColorRes)
       intent.putExtra(Constants.FAB_COLOR_RES_INTENT, fabBackgroundColorRes)
@@ -100,7 +100,7 @@ class PlacePicker {
       intent.putExtra(Constants.GOOGLE_API_KEY, googleApiKey)
       intent.putExtra(Constants.SEARCH_BAR_ENABLE, searchBarEnable)
       intent.putExtra(Constants.HIDE_LOCATION_BUTTON, hideLocation)
-      intent.putExtra(Constants.DISABLE_MARKER_ANIMATION, disableMarkerAnimation)*/
+      intent.putExtra(Constants.DISABLE_MARKER_ANIMATION, disableMarkerAnimation)
       return intent
     }
   }
